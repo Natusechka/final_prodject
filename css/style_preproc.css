@@ -15,6 +15,9 @@ header {
 
 .header_img {
   width: 100%; }
+  @media screen and (min-width: 768px) {
+    .header_img {
+      margin-top: 15px; } }
 
 .navbar {
   margin-bottom: 15px;
@@ -36,22 +39,28 @@ header {
 .navbar-toggle {
   border: none; }
 
-.title {
-  font-size: 90px;
-  color: #4d4d4d;
-  margin-bottom: 22px;
-  font-family: 'Asap', sans-serif;
-  font-weight: 500; }
-  @media screen and (max-width: 767px) {
-    .title {
-      font-size: 60px; } }
-
-.subtitle, .result_title {
-  color: #9a9a9a;
-  font-size: 22px;
-  margin-bottom: 30px;
-  font-family: 'Asap', sans-serif;
-  font-weight: 500; }
+.header_box {
+  padding-top: 153px;
+  text-align: left; }
+  @media screen and (max-width: 768px) {
+    .header_box {
+      text-align: center;
+      padding-top: 15px; } }
+  .header_box .title {
+    font-size: 90px;
+    color: #4d4d4d;
+    margin-bottom: 22px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 500; }
+    @media screen and (max-width: 767px) {
+      .header_box .title {
+        font-size: 60px; } }
+    .header_box .title .subtitle, .header_box .title .result_title {
+      color: #9a9a9a;
+      font-size: 22px;
+      margin-bottom: 30px;
+      font-family: 'Asap', sans-serif;
+      font-weight: 500; }
 
 a {
   text-decoration: none;
@@ -71,16 +80,19 @@ a {
   border: #4d4d4d solid 1px;
   margin-right: 20px;
   letter-spacing: 2px; }
+  @media screen and (max-width: 768px) {
+    .btn, .user_info .user_btn {
+      margin-bottom: 30px;
+      margin-right: 15px; } }
   @media screen and (max-width: 767px) {
     .btn, .user_info .user_btn {
-      margin-bottom: 15px;
-      margin-right: 0; } }
+      margin-bottom: 15px; } }
   .btn:hover, .user_info .user_btn:hover {
     background-color: white;
     border: none;
     -webkit-box-shadow: -4px 0 20px 10px #cecece;
     box-shadow: -4px 0 20px 10px #cecece; }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 768px) {
       .btn:hover, .user_info .user_btn:hover {
         border: 1px solid black;
         -webkit-box-shadow: none;
@@ -106,15 +118,17 @@ a {
 .wrap, .skills {
   padding: 110px 0 124px;
   background-color: white; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .wrap, .skills {
       padding: 60px 0 60px; } }
 
 .user_info {
-  margin-right: 135px; }
-  @media screen and (max-width: 767px) {
+  margin-right: 135px;
+  text-align: left; }
+  @media screen and (max-width: 768px) {
     .user_info {
-      margin-right: 0; } }
+      margin-right: 0;
+      text-align: center; } }
   .user_info .sm_title, .user_info .skills .main_title, .skills .user_info .main_title, .user_info .title_services, .user_info .testi .testi_title, .testi .user_info .testi_title, .user_info .testi .random_ceo .inside .info_title, .testi .random_ceo .inside .user_info .info_title, .user_info footer .footer_title, footer .user_info .footer_title {
     font-size: 46px;
     font-family: 'Asap', sans-serif;
@@ -130,7 +144,7 @@ a {
       width: 61px;
       background-color: #7a7a7a;
       margin-bottom: 21px; }
-      @media screen and (max-width: 767px) {
+      @media screen and (max-width: 768px) {
         .user_info .sm_title:before, .user_info .skills .main_title:before, .skills .user_info .main_title:before, .user_info .title_services:before, .user_info .testi .testi_title:before, .testi .user_info .testi_title:before, .user_info .testi .random_ceo .inside .info_title:before, .testi .random_ceo .inside .user_info .info_title:before, .user_info footer .footer_title:before, footer .user_info .footer_title:before {
           margin: auto;
           margin-bottom: 30px; } }
@@ -263,6 +277,9 @@ a {
       .testi .random_ceo .inside .info_img {
         margin-right: 30px;
         margin-bottom: 15px; }
+        @media screen and (max-width: 767px) {
+          .testi .random_ceo .inside .info_img {
+            margin-right: 0; } }
         .testi .random_ceo .inside .info_img img {
           width: 100%; }
       .testi .random_ceo .inside .info {
@@ -322,6 +339,9 @@ a {
   flex-direction: column;
   justify-content: flex-end;
   max-height: 187px; }
+  @media screen and (max-width: 768px) {
+    .box_result {
+      margin-bottom: 30px; } }
 
 footer {
   background: url("../images/background_footer.png") no-repeat;
@@ -370,10 +390,9 @@ textarea {
 .btn-default {
   border: none;
   font-family: 'Asap', sans-serif;
-  font-weight: 400; }
-  @media screen and (max-width: 767px) {
-    .btn-default {
-      background-color: white; } }
+  font-weight: 400;
+  margin-right: 0;
+  background-color: white; }
   .btn-default img {
     margin-top: -4px;
     margin-left: 7px; }
