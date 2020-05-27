@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8523aed5-4cc8-4c6b-be3f-09e9a51513f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cIvXRWcG7GZynvlWcOkXkkoCRZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Natalia\Desktop\final_project\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Natalia\Desktop\final_project" />
+      <recent name="C:\Users\Natalia\Desktop\final_project\css" />
+      <recent name="C:\Users\Natalia\Desktop\final_project\js" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8523aed5-4cc8-4c6b-be3f-09e9a51513f7" name="Default Changelist" comment="" />
+      <created>1590228960847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590228960847</updated>
+      <workItem from="1590228962070" duration="4185000" />
+      <workItem from="1590367379480" duration="60611000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590525497555">
+      <screen x="62" y="0" width="1538" height="900" />
+    </state>
+    <state x="561" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1538.900/1600.0.1920.1080@62.0.1538.900" timestamp="1590525497555" />
+    <state x="561" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1538.900@62.0.1538.900" timestamp="1590391094827" />
+    <state x="466" y="227" key="EditFileWatcherDialog" timestamp="1590229716292">
+      <screen x="62" y="0" width="1538" height="900" />
+    </state>
+    <state x="466" y="227" key="EditFileWatcherDialog/62.0.1538.900/1600.0.1920.1080@62.0.1538.900" timestamp="1590229716292" />
+  </component>
+</project>
